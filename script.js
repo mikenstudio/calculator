@@ -1,3 +1,5 @@
+// Create document references
+
 const display = document.querySelector(".display");
 const buttonGroup = document.querySelectorAll(".button");
 const numButtons = buttonGroup.length;
