@@ -19,6 +19,10 @@ let calculated = false;
 document.addEventListener("keyup", (e) => {
   if (isNum(e.key)) {
     processNum(e.key);
+  } else if (isOperand(e.key)) {
+    processOperand(e.key);
+  } else if (e.key == "Enter") {
+    processOperand("=");
   }
 });
 

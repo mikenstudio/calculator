@@ -131,3 +131,49 @@
 h1 {
   font-size: 4rem;
 }
+
+@media (max-width: 600px) {
+  .main {
+    gap: 20px;
+    padding: 10px;
+  }
+
+  .calculator {
+    width: 95vw;
+    height: auto;
+    min-width: unset;
+    min-height: unset;
+    padding: 15px;
+  }
+
+  .display {
+    height: 70px;
+    font-size: 2.2rem;
+    padding: 5px 10px;
+  }
+
+  .buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .small-buttons,
+  .big-buttons {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .button-row {
+    gap: 8px;
+  }
+
+  .button {
+    font-size: 1.5rem;
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+}
